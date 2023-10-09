@@ -1,0 +1,103 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+    
+
+}
+html,body{
+    height: 100%;
+    width: 100%;
+    color: #fff;
+
+}
+#main{
+    overflow: hidden;
+    height: 100%;
+    width: 100%;
+    background: #000;
+    text-transform: uppercase;
+    position: relative;
+    
+}
+#nav img{
+    height: 60px;
+}
+#nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+   gap: 30px;
+   font-size: 20px;
+   padding: 15px 20px;
+  
+}
+#nav-part2{
+    display: flex;
+    align-items: center;
+   gap: 30px;
+}
+#nav-part3{
+    display: flex;
+    align-items: center;
+ gap: 30px;
+}
+
+
+
+#nav-part3 button{
+   text-transform: uppercase;
+   padding: 15px 20px;
+   border-radius: none;
+   background: #fff;
+   
+}
+
+#text{
+    text-align: center;
+    font-size: 50px;
+    position: absolute;
+    top: 30%;
+    left: 22%;
+    line-height: 130px;
+}
+#h5{
+    position: absolute;
+    top: 80%;
+    left: 40%;
+
+}
+#image1{
+    height: 40px;
+    width: 30px;
+}
+#image2 img{
+    position: absolute;
+    width: 300px;
+    height: 400px;
+    top: 20%;
+    left: 3%;
+    border-radius: 20px;
+    object-fit: cover;
+    object-position: top;
+
+}
+#image3 img{
+    
+    position: absolute;
+     width: 350px;
+    height: 450px;
+    top: 50%;
+    left:77%;
+    border-radius: 20px;
+    object-fit: cover;
+    object-position: top;
+    background: red;
+
+}
+#main span{
+    background: rgb(190, 46, 46);
+    border-radius: 30px;
+    padding: 10px;
+}
